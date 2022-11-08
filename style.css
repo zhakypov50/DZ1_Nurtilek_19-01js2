@@ -1,0 +1,49 @@
+/*////////// task 1*/
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    color: chocolate;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+input {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto 20px;
+}
+
+button {
+    background-color: #5d6ce7;
+    color: aliceblue;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+span {
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+/*///////// task 2*/
+.blockBig {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #d71111;
+}
+
+.blockSmall {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #02f802;
+}
