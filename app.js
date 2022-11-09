@@ -16,6 +16,13 @@ numberCheck.addEventListener("click", () => {
 });
 
 ///////////////// task 2
-const blockSmall = document.querySelector(".blockSmall");
+const blockBig = document.querySelector(".blockBig")
 
-blockSmall.addEventListener.style.left = '30px';
+let positionX = 0;
+
+const move = () => {
+      positionX += 30;
+      blockBig.style.left = `${positionX}px`;
+};
+
+move();
